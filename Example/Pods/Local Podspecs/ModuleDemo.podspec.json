@@ -1,0 +1,27 @@
+{
+  "name": "ModuleDemo",
+  "version": "0.1.0",
+  "summary": "description of ModuleDemo-01",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zhaole904/ModuleDemo",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zhaole904": "763815972@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/zhaole904/ModuleDemo.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "subspecs": [
+    {
+      "name": "Lsubspec",
+      "source_files": "ModuleDemo/Classes/**/*.{h,m}"
+    }
+  ]
+}

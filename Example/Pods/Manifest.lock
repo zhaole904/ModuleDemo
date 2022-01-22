@@ -1,0 +1,18 @@
+PODS:
+  - ModuleDemo (0.1.0):
+    - ModuleDemo/Lsubspec (= 0.1.0)
+  - ModuleDemo/Lsubspec (0.1.0)
+
+DEPENDENCIES:
+  - ModuleDemo (from `../`)
+
+EXTERNAL SOURCES:
+  ModuleDemo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ModuleDemo: 99efe9b538f1aedfd441e1e542f034b5afd54650
+
+PODFILE CHECKSUM: bcee417abe7620da77e2526c9f127798532bdc94
+
+COCOAPODS: 1.8.4
